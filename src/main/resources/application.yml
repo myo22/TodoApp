@@ -1,0 +1,7 @@
+# Spring Data Source ?? - MysQL DB?? ??
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/exampledb?useSSL=false&allowPublckeyRetrieval=true&serverTimezone=Asia/Seoul
+    username: minhyung
+    password: 220211
+    driver-class-name: com.mysql.cj.jdbc.Driver
