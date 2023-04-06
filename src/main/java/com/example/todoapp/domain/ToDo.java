@@ -15,7 +15,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 public class ToDo {
-    @Id //primary키
+    @Id //primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY) //자동 증가하는 값이다 -> auto_increment 값
     private Long id;
 
